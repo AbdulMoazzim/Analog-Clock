@@ -1,0 +1,45 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+.container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.container img {
+      text-align: center;
+      width: 50vw;
+      
+}
+
+.timing {
+      position: absolute;
+      background-color: black;
+      border-radius: 25px;
+      transform-origin: bottom;
+}
+
+#hour {
+      width: 2%;
+      height: 38%;
+      top: 13%;
+      left: 48.9%;
+}
+
+#minute {
+      width: 1%;
+      height: 45%;
+      top: 5%;
+      left: 49.4%;
+}
+
+#second {
+      background-color: #d90429;
+      width: 0.5%;
+      height: 43%;
+      top: 7%;
+      left: 49.6%;
+}
